@@ -18,4 +18,4 @@ Simple static landing page
 - Tailwind 
 
 ## Demo Website
-https://wumbo.netlify.app/
+https://wumboan.netlify.app/
