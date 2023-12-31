@@ -1,317 +1,650 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Landing Page 2</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap"
+      rel="stylesheet"
+    />
 
-    <link href="/src/output.css" rel="stylesheet">
+    <link href="/src/output.css" rel="stylesheet" />
 
     <!-- aos -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     <style>
-        *{
-            font-family: 'DM Sans', sans-serif;
-        }
+      * {
+        font-family: "DM Sans", sans-serif;
+      }
     </style>
-</head>
-<body>
-    
+  </head>
+  <body>
     <section class="pb-32 bg-main-bg relative z-10 lg:px-24">
-        <nav class="lg:flex justify-between items-center w-full pt-5 hidden">
-            <div class="flex justify-center items-center gap-3">
-                <img src="assets/images/brand-icon.png" alt="">
-                <p class="text-[20px] font-bold">Wumbo</p>
-            </div>
-            <div class="flex gap-5">
-                <a href="" class="font-bold">Top</a>
-                <a href="">For Everyone</a>
-                <a href="">Features</a>
-                <a href="">Preview</a>
-                <a href="">Licensi</a>
-            </div>
-                <button class="px-7 py-2 bg-white rounded-md text-blue-500 font-bold">
-                    Download
-                </button>
-        </nav>
-
-        <div class="xl:flex justify-center items-center px-7 pt-10 md:px-10 lg:gap-10">
-            <div class="lg:w-[50%]">
-                <h1 class="text-[40px] lg:text-[64px] leading-[45px] lg:leading-[80px] md:leading-[70px] text-text-color-dark font-normal md:text-center lg:text-start md:text-5xl">Beautiful Design For <span class="underline font-extrabold">Social Media</span> Content</h1>
-                <p class="text-text-color-dark mt-2 lg:text-lg lg:font-thin w-[95%] md:text-xl md:my-5">Figma social media content templates for branding, marketing, insights, and more. Free for personal and commercial use!</p>
-                <div class="flex items-center gap-3 text-text-color-dark mt-5 md:justify-center lg:justify-start md:mt-10">
-                    <button class="px-[20px] py-[10px] shadow-md shadow-blue-300 text-sm rounded-md bg-primary-color text-white font-bold flex justify-center items-center gap-1">
-                        <img src="assets/images/icon-download.png" alt="">
-                        Download Now
-                    </button>
-                    <button class="px-[20px] py-[10px] shadow-md shadow-blue-300 text-sm rounded-md bg-primary-light flex justify-center items-center gap-1">
-                        <img src="assets/images/icon-play.png" alt="">
-                        See In Action</button>
-                </div>
-            </div>
-            <div class="lg:mt-5 mt-10 lg:w-[60%] md:w-[80%] z-20 md:mx-auto">
-                <div class="flex lg:items-end items-end justify-center w-[100%] gap-3">
-                    <img src="assets/images/hero-1.jpg" alt="" class="lg:w-[30%] w-[30%]">
-                    <img src="assets/images/hero-2.png" alt="" class="lg:w-[40%] w-[40%]">
-                    <img src="assets/images/hero-3.png" alt="" class="lg:w-[25%] w-[30%]">
-                    <!-- <div class="flex flex-col justify-center items-center">
-                        <img src="assets/images/hero-6.png" alt="">
-                        <img src="assets/images/hero-3.png" alt="">
-                    </div> --> 
-                </div>
-                <div class="flex justify-center items-start mt-5 gap-3">
-                    <img src="assets/images/hero-4.png" alt="" class="lg:w-[45%] w-[50%]">
-                    <img src="assets/images/hero-5.png" alt="" class="lg:w-[30%] w-[30%]">
-                    <!-- <img src="assets/images/hero-4.png" alt=""> -->
-                </div>
-            </div>
+      <nav class="lg:flex justify-between items-center w-full pt-5 hidden">
+        <div class="flex justify-center items-center gap-3">
+          <img src="assets/images/brand-icon.png" alt="" />
+          <p class="text-[20px] font-bold">Wumbo</p>
         </div>
-        <img src="assets/images/svg-hero-section.png" alt="" class="absolute -top-5 right-0 -z-10 hidden lg:block">
-        <!-- <img src="assets/images/svg-hero-section.png" alt="" class="absolute md:w-full md:-top-5 right-0 -z-10 w-[95%] bottom-0 top-1/2 -translate-y-1/2 opacity-20 h-[120vh] md:h-[50vh] md:-translate-y-0 block">
+        <div class="flex gap-5">
+          <a href="" class="font-bold">Top</a>
+          <a href="">For Everyone</a>
+          <a href="">Features</a>
+          <a href="">Preview</a>
+          <a href="">Licensi</a>
+        </div>
+        <button class="px-7 py-2 bg-white rounded-md text-blue-500 font-bold">
+          Download
+        </button>
+      </nav>
+
+      <div class="wrapper-maxw">
+        <div
+          class="xl:flex justify-center items-center px-7 pt-10 md:px-10 lg:gap-10"
+        >
+          <div class="lg:w-[50%]">
+            <h1
+              class="text-[40px] lg:text-[64px] leading-[45px] lg:leading-[80px] md:leading-[70px] text-text-color-dark font-normal md:text-center lg:text-start md:text-5xl"
+            >
+              Beautiful Design For
+              <span class="underline font-extrabold">Social Media</span> Content
+            </h1>
+            <p
+              class="text-text-color-dark mt-2 lg:text-lg lg:font-thin w-[95%] md:text-xl md:my-5"
+            >
+              Figma social media content templates for branding, marketing,
+              insights, and more. Free for personal and commercial use!
+            </p>
+            <div
+              class="flex items-center gap-3 text-text-color-dark mt-5 md:justify-center lg:justify-start md:mt-10"
+            >
+              <button
+                class="px-[20px] py-[10px] shadow-md shadow-blue-300 text-sm rounded-md bg-primary-color text-white font-bold flex justify-center items-center gap-1"
+              >
+                <img src="assets/images/icon-download.png" alt="" />
+                Download Now
+              </button>
+              <button
+                class="px-[20px] py-[10px] shadow-md shadow-blue-300 text-sm rounded-md bg-primary-light flex justify-center items-center gap-1"
+              >
+                <img src="assets/images/icon-play.png" alt="" />
+                See In Action
+              </button>
+            </div>
+          </div>
+          <div class="lg:mt-5 mt-10 lg:w-[60%] md:w-[80%] z-20 md:mx-auto">
+            <div
+              class="flex lg:items-end items-end justify-center w-[100%] gap-3"
+            >
+              <img
+                src="assets/images/hero-1.jpg"
+                alt=""
+                class="lg:w-[30%] w-[30%]"
+              />
+              <img
+                src="assets/images/hero-2.png"
+                alt=""
+                class="lg:w-[40%] w-[40%]"
+              />
+              <img
+                src="assets/images/hero-3.png"
+                alt=""
+                class="lg:w-[25%] w-[30%]"
+              />
+              <!-- <div class="flex flex-col justify-center items-center">
+                            <img src="assets/images/hero-6.png" alt="">
+                            <img src="assets/images/hero-3.png" alt="">
+                        </div> -->
+            </div>
+            <div class="flex justify-center items-start mt-5 gap-3">
+              <img
+                src="assets/images/hero-4.png"
+                alt=""
+                class="lg:w-[45%] w-[50%]"
+              />
+              <img
+                src="assets/images/hero-5.png"
+                alt=""
+                class="lg:w-[30%] w-[30%]"
+              />
+              <!-- <img src="assets/images/hero-4.png" alt=""> -->
+            </div>
+          </div>
+        </div>
+        <img
+          src="assets/images/svg-hero-section.png"
+          alt=""
+          class="absolute -top-5 right-0 -z-10 hidden lg:block"
+        />
+      </div>
+      <!-- <img src="assets/images/svg-hero-section.png" alt="" class="absolute md:w-full md:-top-5 right-0 -z-10 w-[95%] bottom-0 top-1/2 -translate-y-1/2 opacity-20 h-[120vh] md:h-[50vh] md:-translate-y-0 block">
         <img src="assets/images/svg-hero-section.png" alt="" class="absolute md:w-full md:-top-5 right-0 -z-10 w-[95%] bottom-0 opacity-20 md:bottom-0 hidden md:hidden lg:hidden"> -->
     </section>
 
-    <section class="bg-main-bg px-10 lg:px-24 pb-20 lg:pt-20 relative z-20 shadow-lg">
-        <img src="assets/images/left-svg.png" alt="" class="absolute left-0 top-0 -z-10">
-        <h1 class="text-center font-bold text-2xl leading-10 lg:text-center xl:mx-auto xl:text-3xl xl:leading-[50px] lg:w-[40%]">Figma Social Feeds is designed for everyone. Use for whatever you want, its completely free!</h1>
-        <div class="md:flex items-center gap-5 lg:gap-16 justify-center lg:mt-5">
-            <div class="bg-[#193766] p-10 mt-10 rounded-md shadow-lg shadow-blue-300">
-                <img src="assets/images/icon-pen.png" alt="" class="bg-[#697B98] p-5 rounded-md">
-                <h2 class="text-white font-semibold text-2xl py-5">For Designer</h2>
-                <p class="text-white">Busy designers want to share insights, such as tips, tricks or other types of insights. Focus on content not on design.</p>
-            </div>
-            <div class="p-5 mt-5 rounded-md">
-                <img src="assets/images/icon-code.png" alt="" class="bg-[#193766] p-5 rounded-md">
-                <h2 class="text-black font-semibold text-2xl py-5">For Coder</h2>
-                <p class="text-black">Coders who want to share snippets, tools, or tips and tricks. No design skills required: just duplicate, edit and export!</p>
-            </div>
-            <div class="p-5 mt-1 rounded-md">
-                <img src="assets/images/icon-terompet.png" alt="" class="bg-[#193766] p-5 rounded-md">
-                <h2 class="text-black font-semibold text-2xl py-5">For Marketer</h2>
-                <p class="text-black">Promote the product in an elegant and attractive way to get more attention from potential customers. Just duplicate and export!</p>
-            </div>
+    <section
+      class="bg-main-bg px-10 lg:px-24 pb-20 lg:pt-20 relative z-20 shadow-lg"
+    >
+      <img
+        src="assets/images/left-svg.png"
+        alt=""
+        class="absolute left-0 top-0 -z-10"
+      />
+
+      <div class="wrapper-maxw">
+        <h1
+          class="text-center font-bold text-2xl leading-10 lg:text-center xl:mx-auto xl:text-3xl xl:leading-[50px] lg:w-[40%]"
+        >
+          Figma Social Feeds is designed for everyone. Use for whatever you
+          want, its completely free!
+        </h1>
+        <div
+          class="md:flex items-center gap-5 lg:gap-16 justify-center lg:mt-5"
+        >
+          <div
+            class="bg-[#193766] p-10 mt-10 rounded-md shadow-lg shadow-blue-300"
+          >
+            <img
+              src="assets/images/icon-pen.png"
+              alt=""
+              class="bg-[#697B98] p-5 rounded-md"
+            />
+            <h2 class="text-white font-semibold text-2xl py-5">For Designer</h2>
+            <p class="text-white">
+              Busy designers want to share insights, such as tips, tricks or
+              other types of insights. Focus on content not on design.
+            </p>
+          </div>
+          <div class="p-5 mt-5 rounded-md">
+            <img
+              src="assets/images/icon-code.png"
+              alt=""
+              class="bg-[#193766] p-5 rounded-md"
+            />
+            <h2 class="text-black font-semibold text-2xl py-5">For Coder</h2>
+            <p class="text-black">
+              Coders who want to share snippets, tools, or tips and tricks. No
+              design skills required: just duplicate, edit and export!
+            </p>
+          </div>
+          <div class="p-5 mt-1 rounded-md">
+            <img
+              src="assets/images/icon-terompet.png"
+              alt=""
+              class="bg-[#193766] p-5 rounded-md"
+            />
+            <h2 class="text-black font-semibold text-2xl py-5">For Marketer</h2>
+            <p class="text-black">
+              Promote the product in an elegant and attractive way to get more
+              attention from potential customers. Just duplicate and export!
+            </p>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="bg-white px-10 mt-10 relative md:py-20 md:px-14 lg:px-24 pb-20 pt-10">
-        <img src="assets/images/right-svg-2.png" alt="" class="absolute right-0 top-[26rem] md:top-20">
-        <img src="assets/images/right-svg.png" alt="" class="absolute right-0 top-0">
+    <section
+      class="bg-white px-10 mt-10 relative md:py-20 md:px-14 lg:px-24 pb-20 pt-10"
+    >
+      <img
+        src="assets/images/right-svg-2.png"
+        alt=""
+        class="absolute right-0 top-[26rem] md:top-20"
+      />
+      <img
+        src="assets/images/right-svg.png"
+        alt=""
+        class="absolute right-0 top-0"
+      />
+
+      <div class="wrapper-maxw">
         <div class="lg:flex justify-between items-center gap-20">
-            <div class="lg:w-[50%]">
-                <h1 class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl text-center">There are <span class="underline font-extrabold">80+ Pre-Designed</span> Templates Ready to Use </h1>
-                <p class="text-[#697B98] my-5 md:my-10 md:text-xl">Many design choices make it free for you to make a different design every time you post. There are 80+ designs with 10+ different layouts. Each layout has several designs with the same theme, just need to focus on the content!</p>
-                <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
-                    <img src="assets/images/rectangle.png" alt="" class="translate-y-4">
-                    <p><span class="text-blue-600 font-bold">Insight:</span> create content that contains insights on design, coding, or recommendations for the best tourist attractions.</p>
-                </div>
-                <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
-                    <img src="assets/images/rectangle.png" alt="" class="translate-y-4">
-                    <p><span class="text-blue-600 font-bold">Promotions:</span> get more potential customers by making product or service promotions in a more attractive way.</p>
-                </div>
-                <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
-                    <img src="assets/images/rectangle.png" alt="" class="translate-y-4">
-                    <p><span class="text-blue-600 font-bold">Much More:</span> design more types of content with Social Feeds and increase followers on your social media accounts.</p>
-                </div>
+          <div class="lg:w-[50%]">
+            <h1
+              class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl text-center"
+            >
+              There are
+              <span class="underline font-extrabold">80+ Pre-Designed</span>
+              Templates Ready to Use
+            </h1>
+            <p class="text-[#697B98] my-5 md:my-10 md:text-xl">
+              Many design choices make it free for you to make a different
+              design every time you post. There are 80+ designs with 10+
+              different layouts. Each layout has several designs with the same
+              theme, just need to focus on the content!
+            </p>
+            <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
+              <img
+                src="assets/images/rectangle.png"
+                alt=""
+                class="translate-y-4"
+              />
+              <p>
+                <span class="text-blue-600 font-bold">Insight:</span> create
+                content that contains insights on design, coding, or
+                recommendations for the best tourist attractions.
+              </p>
             </div>
-                <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto">
-                    <div class="flex lg:items-end items-end justify-center w-[100%] gap-3">
-                        <img src="assets/images/hero-1.jpg" alt="" class="lg:w-[30%] w-[30%]">
-                        <img src="assets/images/hero-2.png" alt="" class="lg:w-[40%] w-[40%]">
-                        <img src="assets/images/hero-3.png" alt="" class="lg:w-[25%] w-[30%]">
-                        <!-- <div class="flex flex-col justify-center items-center">
-                            <img src="assets/images/hero-6.png" alt="">
-                            <img src="assets/images/hero-3.png" alt="">
-                        </div> --> 
-                    </div>
-                    <div class="flex justify-center items-start mt-5 gap-3">
-                        <img src="assets/images/hero-7.png" alt="" class="lg:w-[45%] w-[50%]">
-                        <!-- <img src="assets/images/hero-4.png" alt=""> -->
-                    </div>
-                </div>
+            <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
+              <img
+                src="assets/images/rectangle.png"
+                alt=""
+                class="translate-y-4"
+              />
+              <p>
+                <span class="text-blue-600 font-bold">Promotions:</span> get
+                more potential customers by making product or service promotions
+                in a more attractive way.
+              </p>
+            </div>
+            <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
+              <img
+                src="assets/images/rectangle.png"
+                alt=""
+                class="translate-y-4"
+              />
+              <p>
+                <span class="text-blue-600 font-bold">Much More:</span> design
+                more types of content with Social Feeds and increase followers
+                on your social media accounts.
+              </p>
+            </div>
+          </div>
+          <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto">
+            <div
+              class="flex lg:items-end items-end justify-center w-[100%] gap-3"
+            >
+              <img
+                src="assets/images/hero-1.jpg"
+                alt=""
+                class="lg:w-[30%] w-[30%]"
+              />
+              <img
+                src="assets/images/hero-2.png"
+                alt=""
+                class="lg:w-[40%] w-[40%]"
+              />
+              <img
+                src="assets/images/hero-3.png"
+                alt=""
+                class="lg:w-[25%] w-[30%]"
+              />
+              <!-- <div class="flex flex-col justify-center items-center">
+                                  <img src="assets/images/hero-6.png" alt="">
+                                  <img src="assets/images/hero-3.png" alt="">
+                              </div> -->
+            </div>
+            <div class="flex justify-center items-start mt-5 gap-3">
+              <img
+                src="assets/images/hero-7.png"
+                alt=""
+                class="lg:w-[45%] w-[50%]"
+              />
+              <!-- <img src="assets/images/hero-4.png" alt=""> -->
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
-    <section class="bg-white px-10 mt-10 relative md:py-20 md:px-14 lg:px-24 pb-20 pt-10 overflow-hidden">
-        <img src="assets/images/left-svg-2.png" alt="" class="absolute left-20 top-1/2 - -translate-y-1/2">
-        <img src="assets/images/left-svg-2-2.png" alt="" class="absolute left-0 top-1/2 - -translate-y-1/2">
-        <img src="assets/images/left-svg-2-2.png" alt="" class="absolute left-[30%] top-1/2 - -translate-y-1/2">
+    <section
+      class="bg-white px-10 mt-10 relative md:py-20 md:px-14 lg:px-24 pb-20 pt-10 overflow-hidden"
+    >
+      <img
+        src="assets/images/left-svg-2.png"
+        alt=""
+        class="absolute left-20 top-1/2 - -translate-y-1/2"
+      />
+      <img
+        src="assets/images/left-svg-2-2.png"
+        alt=""
+        class="absolute left-0 top-1/2 - -translate-y-1/2"
+      />
+      <img
+        src="assets/images/left-svg-2-2.png"
+        alt=""
+        class="absolute left-[30%] top-1/2 - -translate-y-1/2"
+      />
+
+      <div class="wrapper-maxw">
         <div class="lg:flex justify-between items-center gap-20">
-            <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto">
-                <div class="flex lg:items-end items-end justify-center w-[100%] gap-3">
-                    <img src="assets/images/hero-8.png" alt="" class="lg:w-[30%] w-[30%] shadow-2xl shadow-blue-200">
-                    <img src="assets/images/hero-9.png" alt="" class="lg:w-[40%] w-[40%] shadow-2xl shadow-blue-200">
-                </div>
-                <div class="flex justify-center items-start mt-5 gap-3">
-                    <img src="assets/images/hero-9.png" alt="" class="lg:w-[40%] w-[40%] shadow-2xl shadow-blue-200">
-                    <img src="assets/images/hero-11.png" alt="" class="lg:w-[40%] w-[40%] shadow-2xl shadow-blue-200">
-                    <!-- <img src="assets/images/hero-4.png" alt=""> -->
-                </div>
+          <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto">
+            <div
+              class="flex lg:items-end items-end justify-center w-[100%] gap-3"
+            >
+              <img
+                src="assets/images/hero-8.png"
+                alt=""
+                class="lg:w-[30%] w-[30%] shadow-2xl shadow-blue-200"
+              />
+              <img
+                src="assets/images/hero-9.png"
+                alt=""
+                class="lg:w-[40%] w-[40%] shadow-2xl shadow-blue-200"
+              />
             </div>
-            <div class="lg:w-[50%] mt-20">
-                <h1 class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl text-center">Design Templates Are Highly Customizable <span class="underline font-extrabold">it's easy to use!</span></h1>
-                <p class="text-[#697B98] my-5 md:my-10 md:text-xl">All design templates are ready to use, meaning you only need to focus on content or if necessary, adjust some properties such as color, font, font size and other properties to match your brand.</p>
-                <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
-                    <img src="assets/images/rectangle.png" alt="" class="translate-y-4">
-                    <p><span class="text-blue-600 font-bold">Font Family:</span> use your favorite font in the design template you choose. Figma has dozens of fonts, don't worry about font!</p>
-                </div>
-                <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
-                    <img src="assets/images/rectangle.png" alt="" class="translate-y-4">
-                    <p><span class="text-blue-600 font-bold">Color:</span> adjust the color of the template design with the brand you have. Set a solid color or gradient, both of which are easy to customize.</p>
-                </div>
-                <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
-                    <img src="assets/images/rectangle.png" alt="" class="translate-y-4">
-                    <p><span class="text-blue-600 font-bold">Much More:</span> set more properties to suit your desires, all the designs own proportions optimized for social media.</p>
-                </div>
+            <div class="flex justify-center items-start mt-5 gap-3">
+              <img
+                src="assets/images/hero-9.png"
+                alt=""
+                class="lg:w-[40%] w-[40%] shadow-2xl shadow-blue-200"
+              />
+              <img
+                src="assets/images/hero-11.png"
+                alt=""
+                class="lg:w-[40%] w-[40%] shadow-2xl shadow-blue-200"
+              />
+              <!-- <img src="assets/images/hero-4.png" alt=""> -->
             </div>
+          </div>
+          <div class="lg:w-[50%] mt-20">
+            <h1
+              class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl text-center"
+            >
+              Design Templates Are Highly Customizable
+              <span class="underline font-extrabold">it's easy to use!</span>
+            </h1>
+            <p class="text-[#697B98] my-5 md:my-10 md:text-xl">
+              All design templates are ready to use, meaning you only need to
+              focus on content or if necessary, adjust some properties such as
+              color, font, font size and other properties to match your brand.
+            </p>
+            <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
+              <img
+                src="assets/images/rectangle.png"
+                alt=""
+                class="translate-y-4"
+              />
+              <p>
+                <span class="text-blue-600 font-bold">Font Family:</span> use
+                your favorite font in the design template you choose. Figma has
+                dozens of fonts, don't worry about font!
+              </p>
+            </div>
+            <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
+              <img
+                src="assets/images/rectangle.png"
+                alt=""
+                class="translate-y-4"
+              />
+              <p>
+                <span class="text-blue-600 font-bold">Color:</span> adjust the
+                color of the template design with the brand you have. Set a
+                solid color or gradient, both of which are easy to customize.
+              </p>
+            </div>
+            <div class="flex justify-center items-start gap-4 mb-4 md:text-lg">
+              <img
+                src="assets/images/rectangle.png"
+                alt=""
+                class="translate-y-4"
+              />
+              <p>
+                <span class="text-blue-600 font-bold">Much More:</span> set more
+                properties to suit your desires, all the designs own proportions
+                optimized for social media.
+              </p>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <section class="bg-text-color-dark py-10">
+      <div class="wrapper-maxw">
         <div class="px-5 md:px-20">
-            <div class="flex justify-center">
-                <h2 class="px-10 py-3 rounded-full text-center bg-black text-white">
-                    Preview
-                </h2>
-            </div>
-            <h1 class="text-2xl leading-10 lg:leading-[55px] text-white font-normal md:text-center lg:text-center md:text-3xl text-center mt-10 lg:w-[50%] lg:mx-auto">Social Feeds is a <span class="underline font-normal">Figma design template,</span> and everyone can use Figma! </h1>
-            <img src="assets/images/video.png" alt="" class="mt-3 mx-auto lg:w-[60%]">
-            <p class="text-center text-white font-normal text-base lg:w-[70%] lg:mx-auto">Like the demo above, you can use Social Feeds with ease, just need to duplicate the template design you want, design the content, and export!</p>
-        </div>
-    </section>
-
-    <section class="bg-white px-10 mt-10 relative md:py-20 md:px-14 lg:px-24 pt-10 overflow-hidden">
-        <img src="assets/images/right-svg-3.png" alt="" class="absolute right-0 top-[26rem] md:top-20">
-        <!-- <img src="assets/images/right-svg-2.png" alt="" class="absolute right-0 top-[26rem] md:top-20"> -->
-        <!-- <img src="assets/images/right-svg.png" alt="" class="absolute right-0 top-0"> -->
-        <div class="lg:flex justify-between items-center gap-20">
-            <div class="lg:w-[50%]">
-                <h1 class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl ztext-center">Optimized For Posts on <span class="underline font-extrabold">All Social Media:</span> Facebook, Instagram & Twitter</h1>
-                <p class="text-[#697B98] my-5 md:my-10 md:text-xl">The design has an aspect ratio of 1:1 which the majority of social media recommends. The image quality is also high (1080 * 1080), you can further increase the image quality to 2x or more so that the design looks sharper.</p>
-                <div class="bg-primary-color p-5 rounded-lg font-semibold text-white flex justify-between shadow-lg shadow-blue-200 items-center mb-5">
-                    <p>Preview For Instagram</p>
-                    <img src="assets/images/arrow-right.png" alt="">
-                </div>
-                <div class="p-5 rounded-lg font-semibold text-black flex justify-between items-center mb-5">
-                    <p>Preview For Facebook</p>
-                    <img src="assets/images/arrow-right-black.png" alt="">
-                </div>
-                <div class="p-5 rounded-lg font-semibold text-black flex justify-between items-center mb-5">
-                    <p>Preview For Twitter</p>
-                    <img src="assets/images/arrow-right-black.png" alt="">
-                </div>
-            </div>
-                <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto xl:translate-x-32">
-                    <img src="assets/images/hero-2-2.png" alt="" class="shadow-2xl shadow-blue-200 md:mx-auto">
-                </div>
-        </div>
-    </section>
-
-    <section class="bg-white px-10 mt-10 relative md:py-10 md:px-14 lg:px-24 pt-5 overflow-hidden z-20">
-        <img src="assets/images/license-left-svg.png" alt="" class="absolute left-0 lg:top-1/2 lg:-translate-y-1/2 -z-10 top-0 -translate-y-0">
-        <!-- <img src="assets/images/right-svg-2.png" alt="" class="absolute right-0 top-[26rem] md:top-20"> -->
-        <!-- <img src="assets/images/right-svg.png" alt="" class="absolute right-0 top-0"> -->
-        <div class="lg:flex justify-between items-center gap-20">
-            <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto">
-                <img src="assets/images/license-image.png" alt="" class="shadow-2xl shadow-blue-200">
-            </div>
-            <div class="lg:w-[50%] mt-10 lg:mt-0">
-                <h1 class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl ztext-center">Figma Social Feeds is Free For <span class="underline text-blue-700 font-extrabold">Pesonal</span> or <span class="underline text-blue-700 font-extrabold">Comercial</span> Use </h1>
-                <p class="text-[#697B98] my-5 md:my-10 md:text-xl">Figma Social Feeds is licensed under CC BY 4.0, which means you are free to use template designs for personal or commercial purposes with attribution to the template design creator.</p>
-                <div class="flex items-center gap-5 mb-5">
-                    <img src="assets/images/icon-check.png" alt="">
-                    <p>Design content for products to be sold</p>
-                </div>
-                <div class="flex items-center gap-5 mb-5">
-                    <img src="assets/images/icon-check.png" alt="">
-                    <p>Design content to offer services</p>
-                </div>
-                <div class="flex items-center gap-5 mb-5">
-                    <img src="assets/images/icon-check.png" alt="">
-                    <p>Create product that include Social Feeds as features in it</p>
-                </div>
-                <div class="flex items-center gap-5 mb-5">
-                    <img src="assets/images/icon-close.png" alt="">
-                    <p>Resell it without making significant changes</p>
-                </div>
-                <div class="flex items-center gap-5 mb-5">
-                    <img src="assets/images/icon-close.png" alt="">
-                    <p>Create design generator tool that include Social Feeds</p>
-                </div>
-                <button class="flex gap-5 items-center border-2 border-blue-600 py-4 px-6 mt-8 rounded-md text-blue-600 font-bold">
-                    Read License
-                    <img src="assets/images/icon-link.png" alt="" class="shadow-2xl shadow-blue-200">
-                </button>
-            </div>
-        </div>
-    </section>
-
-    <section class="px-7 py-16 md:px-14">
-        <div class="flex justify-center">
-            <h2 class="px-10 py-3 rounded-full text-center bg-primary-light text-blue-600 font-semibold">
-                Preview
+          <div class="flex justify-center">
+            <h2 class="px-10 py-3 rounded-full text-center bg-black text-white">
+              Preview
             </h2>
+          </div>
+          <h1
+            class="text-2xl leading-10 lg:leading-[55px] text-white font-normal md:text-center lg:text-center md:text-3xl text-center mt-10 lg:w-[50%] lg:mx-auto"
+          >
+            Social Feeds is a
+            <span class="underline font-normal">Figma design template,</span>
+            and everyone can use Figma!
+          </h1>
+          <img
+            src="assets/images/video.png"
+            alt=""
+            class="mt-3 mx-auto lg:w-[60%]"
+          />
+          <p
+            class="text-center text-white font-normal text-base lg:w-[70%] lg:mx-auto"
+          >
+            Like the demo above, you can use Social Feeds with ease, just need
+            to duplicate the template design you want, design the content, and
+            export!
+          </p>
         </div>
-        <h1 class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-semibold md:text-center lg:text-center md:text-4xl text-center mt-5">Download Figma <span class="underline text-blue-700 font-extrabold">Social Feeds</span> Now For</h1>
-        <p class="text-[#697B98] md:text-center mx-auto lg:w-[40%] md:w-[70%] lg:py-2 py-3 md:py-3">Figma Social Feeds is free for everyone, create content for promotion, share insights and get creative on the internet.</p>
-        <div class="flex justify-center items-center gap-3 mt-5">
-            <button class="px-[20px] py-[10px] shadow-2xl shadow-blue-200 text-sm rounded-md bg-primary-color text-white flex flex-row-reverse justify-center items-center gap-2 md:gap-4">
-                <img src="assets/images/icon-download.png" alt="">
-                Download Now
-            </button>
-            <button class="px-[20px] py-[10px] shadow-2xl shadow-blue-200 text-sm rounded-md bg-[#1DA1F2] text-white flex flex-row-reverse justify-center items-center gap-2 md:gap-4">
-                <img src="assets/images/icon-twitter.png" alt="">
-                Say Thanks
-            </button>
-        </div>
+      </div>
     </section>
+
+    <section
+      class="bg-white px-10 mt-10 relative md:py-20 md:px-14 lg:px-24 pt-10 overflow-hidden"
+    >
+      <img
+        src="assets/images/right-svg-3.png"
+        alt=""
+        class="absolute right-0 top-[26rem] md:top-20"
+      />
+      <!-- <img src="assets/images/right-svg-2.png" alt="" class="absolute right-0 top-[26rem] md:top-20"> -->
+      <!-- <img src="assets/images/right-svg.png" alt="" class="absolute right-0 top-0"> -->
+
+      <div class="wrapper-maxw">
+        <div class="lg:flex justify-between items-center gap-20">
+          <div class="lg:w-[50%]">
+            <h1
+              class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl ztext-center"
+            >
+              Optimized For Posts on
+              <span class="underline font-extrabold">All Social Media:</span>
+              Facebook, Instagram & Twitter
+            </h1>
+            <p class="text-[#697B98] my-5 md:my-10 md:text-xl">
+              The design has an aspect ratio of 1:1 which the majority of social
+              media recommends. The image quality is also high (1080 * 1080),
+              you can further increase the image quality to 2x or more so that
+              the design looks sharper.
+            </p>
+            <div
+              class="bg-primary-color p-5 rounded-lg font-semibold text-white flex justify-between shadow-lg shadow-blue-200 items-center mb-5"
+            >
+              <p>Preview For Instagram</p>
+              <img src="assets/images/arrow-right.png" alt="" />
+            </div>
+            <div
+              class="p-5 rounded-lg font-semibold text-black flex justify-between items-center mb-5"
+            >
+              <p>Preview For Facebook</p>
+              <img src="assets/images/arrow-right-black.png" alt="" />
+            </div>
+            <div
+              class="p-5 rounded-lg font-semibold text-black flex justify-between items-center mb-5"
+            >
+              <p>Preview For Twitter</p>
+              <img src="assets/images/arrow-right-black.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto xl:translate-x-32"
+          >
+            <img
+              src="assets/images/hero-2-2.png"
+              alt=""
+              class="shadow-2xl shadow-blue-200 md:mx-auto"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="bg-white px-10 mt-10 relative md:py-10 md:px-14 lg:px-24 pt-5 overflow-hidden z-20"
+    >
+      <img
+        src="assets/images/license-left-svg.png"
+        alt=""
+        class="absolute left-0 lg:top-1/2 lg:-translate-y-1/2 -z-10 top-0 -translate-y-0"
+      />
+      <!-- <img src="assets/images/right-svg-2.png" alt="" class="absolute right-0 top-[26rem] md:top-20"> -->
+      <!-- <img src="assets/images/right-svg.png" alt="" class="absolute right-0 top-0"> -->
+      <div class="wrapper-maxw">
+        <div class="lg:flex justify-between items-center gap-20">
+          <div class="lg:mt-5 mt-10 lg:w-[50%] md:w-[80%] z-20 md:mx-auto">
+            <img
+              src="assets/images/license-image.png"
+              alt=""
+              class="shadow-2xl shadow-blue-200"
+            />
+          </div>
+          <div class="lg:w-[50%] mt-10 lg:mt-0">
+            <h1
+              class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-normal md:text-center lg:text-start md:text-4xl ztext-center"
+            >
+              Figma Social Feeds is Free For
+              <span class="underline text-blue-700 font-extrabold"
+                >Pesonal</span
+              >
+              or
+              <span class="underline text-blue-700 font-extrabold"
+                >Comercial</span
+              >
+              Use
+            </h1>
+            <p class="text-[#697B98] my-5 md:my-10 md:text-xl">
+              Figma Social Feeds is licensed under CC BY 4.0, which means you
+              are free to use template designs for personal or commercial
+              purposes with attribution to the template design creator.
+            </p>
+            <div class="flex items-center gap-5 mb-5">
+              <img src="assets/images/icon-check.png" alt="" />
+              <p>Design content for products to be sold</p>
+            </div>
+            <div class="flex items-center gap-5 mb-5">
+              <img src="assets/images/icon-check.png" alt="" />
+              <p>Design content to offer services</p>
+            </div>
+            <div class="flex items-center gap-5 mb-5">
+              <img src="assets/images/icon-check.png" alt="" />
+              <p>Create product that include Social Feeds as features in it</p>
+            </div>
+            <div class="flex items-center gap-5 mb-5">
+              <img src="assets/images/icon-close.png" alt="" />
+              <p>Resell it without making significant changes</p>
+            </div>
+            <div class="flex items-center gap-5 mb-5">
+              <img src="assets/images/icon-close.png" alt="" />
+              <p>Create design generator tool that include Social Feeds</p>
+            </div>
+            <button
+              class="flex gap-5 items-center border-2 border-blue-600 py-4 px-6 mt-8 rounded-md text-blue-600 font-bold"
+            >
+              Read License
+              <img
+                src="assets/images/icon-link.png"
+                alt=""
+                class="shadow-2xl shadow-blue-200"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrapper-maxw">
+      <section class="px-7 py-16 md:px-14">
+        <div class="flex justify-center">
+          <h2
+            class="px-10 py-3 rounded-full text-center bg-primary-light text-blue-600 font-semibold"
+          >
+            Preview
+          </h2>
+        </div>
+        <h1
+          class="text-3xl leading-10 lg:leading-[55px] text-text-color-dark font-semibold md:text-center lg:text-center md:text-4xl text-center mt-5"
+        >
+          Download Figma
+          <span class="underline text-blue-700 font-extrabold"
+            >Social Feeds</span
+          >
+          Now For
+        </h1>
+        <p
+          class="text-[#697B98] md:text-center mx-auto lg:w-[40%] md:w-[70%] lg:py-2 py-3 md:py-3"
+        >
+          Figma Social Feeds is free for everyone, create content for promotion,
+          share insights and get creative on the internet.
+        </p>
+        <div class="flex justify-center items-center gap-3 mt-5">
+          <button
+            class="px-[20px] py-[10px] shadow-2xl shadow-blue-200 text-sm rounded-md bg-primary-color text-white flex flex-row-reverse justify-center items-center gap-2 md:gap-4"
+          >
+            <img src="assets/images/icon-download.png" alt="" />
+            Download Now
+          </button>
+          <button
+            class="px-[20px] py-[10px] shadow-2xl shadow-blue-200 text-sm rounded-md bg-[#1DA1F2] text-white flex flex-row-reverse justify-center items-center gap-2 md:gap-4"
+          >
+            <img src="assets/images/icon-twitter.png" alt="" />
+            Say Thanks
+          </button>
+        </div>
+      </section>
+    </div>
 
     <section class="bg-text-color-dark px-10 py-20 lg:px-24">
+      <div class="wrapper-maxw">
         <div class="md:flex justify-between items-center gap-5">
-            <div class="md:w-[40%] lg:w-[50%]">
-                <img src="assets/images/brand-icon.png" alt="">
-                <p class="text-white font-semibold my-3 text-xl">Wumbo</p>
-                <p class="text-white opacity-90">Wumbo is a team of creative developers who have an interest in design. We create design templates, UI kits and other products that make people's work easier and faster.</p>
+          <div class="md:w-[40%] lg:w-[50%]">
+            <img src="assets/images/brand-icon.png" alt="" />
+            <p class="text-white font-semibold my-3 text-xl">Wumbo</p>
+            <p class="text-white opacity-90">
+              Wumbo is a team of creative developers who have an interest in
+              design. We create design templates, UI kits and other products
+              that make people's work easier and faster.
+            </p>
+          </div>
+          <div
+            class="text-white opacity-90 md:flex justify-center items-start md:w-[60%] gap-10 lg:w-[50%] lg:justify-around"
+          >
+            <div class="mt-5 flex flex-col gap-1">
+              <h1 class="text-lg mb-2 font-semibold">PRODUCTS</h1>
+              <p>Social Feeds</p>
+              <p>React UI Kit</p>
+              <p>Stisla Design</p>
+              <p>More Products</p>
             </div>
-            <div class="text-white opacity-90 md:flex justify-center items-start md:w-[60%] gap-10 lg:w-[50%] lg:justify-around">
-                <div class="mt-5 flex flex-col gap-1">
-                    <h1 class="text-lg mb-2 font-semibold">PRODUCTS</h1>
-                    <p>Social Feeds</p>
-                    <p>React UI Kit</p>
-                    <p>Stisla Design</p>
-                    <p>More Products</p>
-                </div>
-                <div class="mt-5 flex flex-col gap-1">
-                    <h1 class="text-lg mb-2 font-semibold">COMPANY</h1>
-                    <p>About Us</p>
-                    <p>Contact</p>
-                    <p>Privasi Policy</p>
-                    <p>Terms of Service</p>
-                    <p>Help</p>
-                </div>
-                <div class="mt-5 flex flex-col gap-1">
-                    <h1 class="text-lg mb-2 font-semibold">GET IN TOUCH</h1>
-                    <p>Twitter</p>
-                    <p>Facebook</p>
-                    <p>Dribble</p>
-                </div>
+            <div class="mt-5 flex flex-col gap-1">
+              <h1 class="text-lg mb-2 font-semibold">COMPANY</h1>
+              <p>About Us</p>
+              <p>Contact</p>
+              <p>Privasi Policy</p>
+              <p>Terms of Service</p>
+              <p>Help</p>
             </div>
+            <div class="mt-5 flex flex-col gap-1">
+              <h1 class="text-lg mb-2 font-semibold">GET IN TOUCH</h1>
+              <p>Twitter</p>
+              <p>Facebook</p>
+              <p>Dribble</p>
+            </div>
+          </div>
         </div>
         <div class="font-normal text-white opacity-80 mt-10 text-xs">
-            <p>COPYRIGHT © 2022 — DESIGN NAUVAL &nbsp;|&nbsp; CODE AZAM DIN</p>
+          <p>COPYRIGHT © 2022 — DESIGN NAUVAL &nbsp;|&nbsp; CODE AZAM DIN</p>
         </div>
+      </div>
     </section>
 
-
-    
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        AOS.init();
+      AOS.init();
     </script>
-</body>
+  </body>
 </html>
